@@ -1,0 +1,146 @@
+//Variable
+
+
+
+
+
+// Spcing Start
+
+@for $i from 1 to 51 {
+  .m-#{$i}px{
+      margin:#{$i}px;
+  }
+  .mt-#{$i}px{
+      margin-top:#{$i}px;
+  }
+  .ml-#{$i}px{
+      margin-left:#{$i}px;
+  }
+  .mr-#{$i}px{
+      margin-right:#{$i}px;
+  }
+  .mb-#{$i}px{
+      margin-bottom:#{$i}px;
+  }
+  .mx-#{$i}px{
+      margin-left:#{$i}px;
+      margin-right:#{$i}px;
+  }
+  .my-#{$i}px{
+      margin-top:#{$i}px;
+      margin-bottom:#{$i}px;
+  }
+}
+
+@for $i from 1 to 51 {
+  .p-#{$i}px{
+      padding:#{$i}px;
+  }
+  .pt-#{$i}px{
+      padding-top:#{$i}px;
+  }
+  .pl-#{$i}px{
+      padding-left:#{$i}px;
+  }
+  .pr-#{$i}px{
+      padding-right:#{$i}px;
+  }
+  .pb-#{$i}px{
+      padding-bottom:#{$i}px;
+  }
+  .px-#{$i}px{
+      padding-left:#{$i}px;
+      padding-right:#{$i}px;
+  }
+  .py-#{$i}px{
+      padding-top:#{$i}px;
+      padding-bottom:#{$i}px;
+  }
+}
+// Spacing End
+
+// Position
+
+.position-fixed{
+  position: fixed;
+}
+.position-relative{
+  position: relative;
+}
+.position-absolute{
+  position: absolute;
+}
+.position-sticky{
+  position: sticky;
+}
+.position-static{
+  position: static;
+}
+
+
+@for $i from 1 to 11 {
+  .top-#{$i*2}px{
+      top:#{$i*2}px;
+  }
+  .left-#{$i*2}px{
+      top:#{$i*2}px;
+  }
+  .right-#{$i*2}px{
+      top:#{$i*2}px;
+  }
+  .bottom-#{$i*2}px{
+      top:#{$i*2}px;
+  }
+}
+
+.top-0{
+  top:0px;
+}
+.left-0{
+  left:0px;
+}
+.right-0{
+  right:0px;
+}
+.bottom-0{
+  bottom:0px;
+}
+
+// Position End
+
+// Icon Size
+
+@for $i from 1 to 17 {
+  .icon-#{$i*2}{
+      width:#{$i*2}px;
+      height:#{$i*2}px;
+  }
+}
+
+// Icon Size End
+
+//Font Size
+
+@for $i from 1 to 17 {
+  .font-size-#{$i*2}{
+      font-size:#{$i*2}px;
+  }
+}
+
+// Font Size End
+
+//Font Weight
+
+@for $i from 1 to 8 {
+  .font-weight-#{$i*100}{
+      font-weight:#{$i*100};
+
+  }
+}
+
+//Font Weight End
+
+// Text-align
+.text-left{
+  text-align: left;
+}
